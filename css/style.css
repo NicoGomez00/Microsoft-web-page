@@ -1,0 +1,54 @@
+@media screen and (max-width: 564px){
+	main .hero-text h2{font-size: 32px;}
+}
+	
+}
+
+body{background-color: #f8f9fa; margin: 0px 45px;}
+
+/*Header style*/
+header { font-size: 14px;}
+header #logo{width: 155px; height: 36px;}
+header #nav-2{line-height: 30px;}
+header ul li{border-bottom: 1px solid #f8f9fa;}
+header ul li:hover{border-bottom: 1px solid black;}
+
+/*Main style*/
+main .carousel{margin: auto; max-width: 1408px;}
+main #carousel-button {top: 10px; left: 10px;}
+main #column-1 {top: 193px; right: 868px;}
+main #column-1 #buttom-column { width: 173; height: 43px; }
+main #column-2 {top: 351px; right: 260px;}
+main #column-3 {top: 260px; right: 40px;}
+main #section-items img{width: 350px; height: 210px;
+	transition: 1s;
+	-ms-transition: 1s;
+	-webkit-transition: 1s;
+	box-shadow: 5px 10px 18px #888888;
+	-ms-box-shadow: 5px 10px 18px #888888;
+	-webkit-box-shadow: 5px 10px 18px #888888;}
+main #section-items img:hover{
+	-ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03);
+    z-index: 9999;
+}
+main #section-items h2{font-size: 20px; font-weight: bold;}
+main #section-items a::after,main button::after{content: " >"}
+main .hero-image {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0)), url("../img/jum-01.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+main .hero-text {width: 100%; height: 100%; padding: 55px 0px; align-items: center;}
+main .hero-text h2{font-size: 41px;}
+main .hero-image::before{padding-right: 40%;}
+main .hero-text button {outline: 0;display: inline-block;text-align: center;cursor: pointer; background-color: black;}
+main .hero-text button:hover{
+	-ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03);}
